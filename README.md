@@ -17,7 +17,7 @@ https://jkouneski.github.io/Code-Quiz/
 
 ## Mock Up
 
-![Screenshot] ("./assets/Screen Shot 2021-03-16 at 12.02.57 AM.png")
+![Screenshot] (./assets/Screen_Shot_2021-03-16_at_12.02.57_AM.png)
 
 
 
