@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>JavaScript Quiz</title>
+  </head>
+  <body>
+    
+    <!-- Highscore button and timer -->
+    <nav>
+      <div class="highscore-btn"><button >Highscores</button></div>
+      <div class="timer">
+        <div class="timer-text"> Time Left:</div>
+        <div class="timer-seconds">60</div>
+      </div>
+    </nav>
+    <!-- Start button -->
+    <div class="start-button"><button>Start Quiz</button></div>
+
+    <!-- Highscore Card -->
+    <div class="highscore-card">
+      <div class="highscore-title">
+        <span>Highscores</span>
+      </div>
+      <div class="highscore-list"></div>
+    </div>
+
+    <!-- Question 1 -->
+    <div class="quiz-card">
+      
+      <div class="quiz-text">
+        <span class="ques-text">Which of the following best describes JavaScript?</span>
+        <!-- Answers -->
+        <div class="options-list">
+          <div class="option">
+            <span>a low-level programming language.</span>
+            <div class="icon-cross"><i class="fas fa-times"></i></div>
+          </div>
+          <div class="option">
+            <span>a scripting language precompiled in the browser.</span>
+          </div>
+          <div class="option">
+            <span>a flavor of ice cream.</span>
+          </div>
+          <div class="option">
+            <span> an object-oriented scripting language.</span>
+            <div class="icon-check"><i class=" fas fa-check"></i></div>
+          </div>
+        </div>
+      </div>
+      <!-- Question Footer -->
+      <div class="quiz-footer">
+        <div class="total-quiz"> 1 of 5 Questions</div>
+        <button class="next-btn">Next</button>
+      </div>
+    </div>
+    
+    <!-- Question 2 -->
+    <div class="quiz-card">
+      <div class="quiz-text">
+        <span class="ques-text">Which of the following is not a valid JavaScript variable name?</span>
+        <!-- Answers -->
+        <div class="options-list">
+          <div class="option">
+            <span>2names</span>
+            <div class="icon-check"><i class="fas fa-check"></i></div>
+          </div>
+          <div class="option">
+            <span>_first_and_last_names</span>
+          </div>
+          <div class="option">
+            <span>FirstAndLast</span>
+            <div class="icon-cross"><i class=" fas fa-times"></i></div>
+          </div>
+          <div class="option">
+            <span>None of the above</span>
+          </div>
+        </div>
+      </div>
+      <!-- Question Footer -->
+      <div class="quiz-footer">
+        <div class="total-quiz"> 2 of 5 Questions</div>
+        <button class="next-btn">Next</button>
+      </div>  
+    </div>
+
+    <!-- Question 3 -->
+    <div class="quiz-card">
+      <div class="quiz-text">
+        <span class="ques-text">Which of the following is not considered a JavaScript operator?</span>
+        <!-- Answers -->
+        <div class="options-list">
+          <div class="option">
+            <span>new</span>
+          </div>
+          <div class="option">
+            <span>this</span>
+            <div class="icon-check"><i class="fas fa-check"></i></div>
+          </div>
+          <div class="option">
+            <span>delete</span>
+            <div class="icon-cross"><i class="fas fa-times"></i></div>
+          </div>
+          <div class="option">
+            <span>typeof</span>
+          </div>
+        </div>
+      </div>
+        <!-- Question Footer -->
+      <div class="quiz-footer">
+        <div class="total-quiz"> 3 of 5 Questions</div>
+        <button class="next-btn">Next</button>
+      </div>
+    </div>
+
+    <!-- Question 4 -->
+    <div class="quiz-card">
+      <div class="quiz-text">
+        <span class="ques-text">Which of the following are capabilities of functions in JavaScript?</span>
+        <!-- Answers -->
+        <div class="options-list">
+          <div class="option">
+            <span>Return a value</span>
+            <div class="icon-cross"><i class="fas fa-times"></i></div>
+          </div>
+          <div class="option">
+            <span>Accept parameters and Return a value</span>
+          </div>
+          <div class="option">
+            <span>Accept parameters</span>
+            <div class="icon-check"><i class=" fas fa-check"></i></div>
+          </div>
+          <div class="option">
+            <span>None of the above</span>
+          </div>
+          </div>
+      </div>
+        <!-- Question Footer -->
+      <div class="quiz-footer">
+        <div class="total-quiz"> 4 of 5 Questions</div>
+        <button class="next-btn">Next</button>
+      </div>
+    </div>
+
+    <!-- Question 5 -->
+    <div class="quiz-card">
+      <div class="quiz-text">
+        <span class="ques-text">The syntax of close method for document object is ______________</span>
+      <!-- Answers -->
+        <div class="options-list">
+          <div class="option">
+            <span>Close(doC.</span>
+            <div class="icon-cross"><i class="fas fa-times"></i></div>
+          </div>
+          <div class="option">
+            <span>Close(object)</span>
+          </div>
+          <div class="option">
+            <span>Close(val)</span>
+          </div>
+          <div class="option">
+            <span>Close()</span>
+            <div class="icon-check"><i class=" fas fa-check"></i></div>
+          </div>
+        </div>
+        <!-- Question Footer -->
+      <div class="quiz-footer">
+        <div class="total-quiz"> 5 of 5 Questions</div>
+        <button class="next-btn">Next</button>
+      </div>
+      </div>
+    </div>
+
+    <!-- Results post quiz -->
+    <div class="result-card">
+      <div class="results-text">You have completed the quiz!</div>
+      <div class="score-text">
+        <div>
+          <div>You got</div>
+          <div class="correct-answers">5</div>
+          <div>out of 5</div></div>
+        <button>Add highscore</button>
+      </div>
+    </div>
+
+    <!-- Add Highscore post quiz -->
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src = "./assets/script.js<">/script>
+  </body>
+</html>
