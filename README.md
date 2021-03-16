@@ -12,8 +12,8 @@ https://jkouneski.github.io/Code-Quiz/
 * CSS
 * JavaScript
 * Bootstrap
-*Git
-*VS Code
+* Git
+* VS Code
 
 ## Mock Up
 
