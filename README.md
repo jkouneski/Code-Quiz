@@ -17,7 +17,7 @@ https://jkouneski.github.io/Code-Quiz/
 
 ## Mock Up
 
-![Screenshot] (.assets/screenshotquiz.png)
+![Screenshot] (./assets/screenshotquiz.png)
 
 
 
